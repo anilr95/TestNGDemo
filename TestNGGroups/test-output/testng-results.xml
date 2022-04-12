@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="10" total="19" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-23T22:47:54 IST" name="Suite" finished-at="2022-03-23T22:47:55 IST" duration-ms="342">
+    <groups>
+      <group name="SmokeTest">
+        <method signature="CarLoan.apiLoginCarLoan()[pri:0, instance:com.cg.loan.CarLoan@7c469c48]" name="apiLoginCarLoan" class="com.cg.loan.CarLoan"/>
+        <method signature="HomeLoan.mobileLoginHomeLoan()[pri:0, instance:com.cg.loan.HomeLoan@1677d1]" name="mobileLoginHomeLoan" class="com.cg.loan.HomeLoan"/>
+        <method signature="PersonalLoan.webLoginPersonalLoan()[pri:0, instance:com.cg.loan.PersonalLoan@318ba8c8]" name="webLoginPersonalLoan" class="com.cg.loan.PersonalLoan"/>
+      </group> <!-- SmokeTest -->
+      <group name="Group B">
+        <method signature="DemoMultipleGroups.testMethod2()[pri:0, instance:com.cg.pack2.DemoMultipleGroups@34b7ac2f]" name="testMethod2" class="com.cg.pack2.DemoMultipleGroups"/>
+        <method signature="DemoMultipleGroups.testMethod2()[pri:0, instance:com.cg.pack2.DemoMultipleGroups@2667f029]" name="testMethod2" class="com.cg.pack2.DemoMultipleGroups"/>
+        <method signature="DemoMultipleGroups.testMethod3()[pri:0, instance:com.cg.pack2.DemoMultipleGroups@2667f029]" name="testMethod3" class="com.cg.pack2.DemoMultipleGroups"/>
+      </group> <!-- Group B -->
+      <group name="Group A">
+        <method signature="DemoMultipleGroups.testMethod1()[pri:0, instance:com.cg.pack2.DemoMultipleGroups@34b7ac2f]" name="testMethod1" class="com.cg.pack2.DemoMultipleGroups"/>
+        <method signature="DemoMultipleGroups.testMethod2()[pri:0, instance:com.cg.pack2.DemoMultipleGroups@34b7ac2f]" name="testMethod2" class="com.cg.pack2.DemoMultipleGroups"/>
+        <method signature="DemoMultipleGroups.testMethod2()[pri:0, instance:com.cg.pack2.DemoMultipleGroups@2667f029]" name="testMethod2" class="com.cg.pack2.DemoMultipleGroups"/>
+      </group> <!-- Group A -->
+      <group name="Group D">
+        <method signature="DemoMultipleGroups.testMethod5()[pri:0, instance:com.cg.pack2.DemoMultipleGroups@2667f029]" name="testMethod5" class="com.cg.pack2.DemoMultipleGroups"/>
+      </group> <!-- Group D -->
+      <group name="Group C">
+        <method signature="DemoMultipleGroups.testMethod4()[pri:0, instance:com.cg.pack2.DemoMultipleGroups@2667f029]" name="testMethod4" class="com.cg.pack2.DemoMultipleGroups"/>
+      </group> <!-- Group C -->
+    </groups>
+    <test started-at="2022-03-23T22:47:54 IST" name="Test" finished-at="2022-03-23T22:47:54 IST" duration-ms="119">
+      <class name="com.cg.loan.HomeLoan">
+        <test-method signature="mobileLoginHomeLoan()[pri:0, instance:com.cg.loan.HomeLoan@1677d1]" started-at="2022-03-23T22:47:54 IST" name="mobileLoginHomeLoan" finished-at="2022-03-23T22:47:54 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileLoginHomeLoan -->
+      </class> <!-- com.cg.loan.HomeLoan -->
+      <class name="com.cg.loan.PersonalLoan">
+        <test-method signature="webLoginPersonalLoan()[pri:0, instance:com.cg.loan.PersonalLoan@318ba8c8]" started-at="2022-03-23T22:47:54 IST" name="webLoginPersonalLoan" finished-at="2022-03-23T22:47:54 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webLoginPersonalLoan -->
+      </class> <!-- com.cg.loan.PersonalLoan -->
+      <class name="com.cg.loan.CarLoan">
+        <test-method signature="apiLoginCarLoan()[pri:0, instance:com.cg.loan.CarLoan@7c469c48]" started-at="2022-03-23T22:47:54 IST" name="apiLoginCarLoan" finished-at="2022-03-23T22:47:54 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiLoginCarLoan -->
+      </class> <!-- com.cg.loan.CarLoan -->
+    </test> <!-- Test -->
+    <test started-at="2022-03-23T22:47:54 IST" name="Test- A" finished-at="2022-03-23T22:47:54 IST" duration-ms="24">
+      <class name="com.cg.pack2.DemoMultipleGroups">
+        <test-method signature="testMethod1()[pri:0, instance:com.cg.pack2.DemoMultipleGroups@34b7ac2f]" started-at="2022-03-23T22:47:54 IST" name="testMethod1" finished-at="2022-03-23T22:47:54 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod1 -->
+        <test-method signature="testMethod2()[pri:0, instance:com.cg.pack2.DemoMultipleGroups@34b7ac2f]" started-at="2022-03-23T22:47:54 IST" name="testMethod2" finished-at="2022-03-23T22:47:54 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod2 -->
+      </class> <!-- com.cg.pack2.DemoMultipleGroups -->
+    </test> <!-- Test- A -->
+    <test started-at="2022-03-23T22:47:54 IST" name="Test- B" finished-at="2022-03-23T22:47:55 IST" duration-ms="38">
+      <class name="com.cg.pack2.DemoMultipleGroups">
+        <test-method signature="testMethod2()[pri:0, instance:com.cg.pack2.DemoMultipleGroups@2667f029]" started-at="2022-03-23T22:47:54 IST" name="testMethod2" finished-at="2022-03-23T22:47:55 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod2 -->
+        <test-method signature="testMethod3()[pri:0, instance:com.cg.pack2.DemoMultipleGroups@2667f029]" started-at="2022-03-23T22:47:55 IST" name="testMethod3" finished-at="2022-03-23T22:47:55 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod3 -->
+        <test-method signature="testMethod4()[pri:0, instance:com.cg.pack2.DemoMultipleGroups@2667f029]" started-at="2022-03-23T22:47:55 IST" name="testMethod4" finished-at="2022-03-23T22:47:55 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod4 -->
+        <test-method signature="testMethod5()[pri:0, instance:com.cg.pack2.DemoMultipleGroups@2667f029]" started-at="2022-03-23T22:47:55 IST" name="testMethod5" finished-at="2022-03-23T22:47:55 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod5 -->
+      </class> <!-- com.cg.pack2.DemoMultipleGroups -->
+    </test> <!-- Test- B -->
+  </suite> <!-- Suite -->
+</testng-results>

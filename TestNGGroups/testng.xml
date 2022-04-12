@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<!-- groups at suite level -->
+	<groups>
+		<run>
+			<include name="SmokeTest"></include>
+		</run>
+	</groups>
+
+	<test thread-count="5" name="Test">
+
+		<!-- groups at Test level -->
+		<!-- <groups> <run> <include name="SmokeTest"></include> </run> </groups> -->
+
+		<classes>
+			<class name="com.cg.loan.PersonalLoan" />
+			<class name="com.cg.loan.CarLoan" />
+			<class name="com.cg.loan.HomeLoan" />
+		</classes>
+	</test> <!-- Test -->
+
+	<!-- for tests belonging to multiple groups -->
+	<test thread-count="5" name="Test- A">
+		<groups>
+			<run>
+				<include name="Group A"></include>
+			</run>
+		</groups>
+
+		<classes>
+			<class name="com.cg.pack2.DemoMultipleGroups" />
+		</classes>
+	</test>
+
+
+	<!-- for nested groups -->
+	<test thread-count="5" name="Test- B">
+		<groups>
+			<define name="InnerGroup">
+				<include name="Group C" />
+				<include name="Group D" />
+			</define>
+			<run>
+				<include name="Group B"></include>
+				<include name="InnerGroup"></include>
+
+				<!-- <exclude name="Group C"></exclude> -->
+				<!-- this will exclude grp C from inner group as well -->
+			</run>
+		</groups>
+
+		<classes>
+			<class name="com.cg.pack2.DemoMultipleGroups" />
+		</classes>
+	</test>
+
+
+
+</suite> <!-- Suite -->
