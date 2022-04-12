@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-25T12:12:35 IST" name="Suite" finished-at="2022-03-25T12:12:36 IST" duration-ms="221">
+    <groups>
+      <group name="Grp B">
+        <method signature="DemoAnnotationsAttributes.testMethod4()[pri:0, instance:com.cg.DemoAnnotationsAttributes@647fd8ce]" name="testMethod4" class="com.cg.DemoAnnotationsAttributes"/>
+      </group> <!-- Grp B -->
+      <group name="Grp A">
+        <method signature="DemoAnnotationsAttributes.testMethod3()[pri:0, instance:com.cg.DemoAnnotationsAttributes@647fd8ce]" name="testMethod3" class="com.cg.DemoAnnotationsAttributes"/>
+      </group> <!-- Grp A -->
+    </groups>
+    <test started-at="2022-03-25T12:12:35 IST" name="Test" finished-at="2022-03-25T12:12:36 IST" duration-ms="221">
+      <class name="com.cg.DemoAnnotationsAttributes">
+        <test-method signature="divide()[pri:0, instance:com.cg.DemoAnnotationsAttributes@647fd8ce]" started-at="2022-03-25T12:12:35 IST" name="divide" finished-at="2022-03-25T12:12:35 IST" duration-ms="16" status="PASS">
+          <exception class="java.lang.ArithmeticException">
+            <message>
+              <![CDATA[/ by zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArithmeticException: / by zero
+at com.cg.DemoAnnotationsAttributes.divide(DemoAnnotationsAttributes.java:65)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArithmeticException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divide -->
+        <test-method signature="testMethod1()[pri:0, instance:com.cg.DemoAnnotationsAttributes@647fd8ce]" started-at="2022-03-25T12:12:35 IST" name="testMethod1" description="This is the testMethod1() description" finished-at="2022-03-25T12:12:35 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod1 -->
+        <test-method signature="testMethod3()[pri:0, instance:com.cg.DemoAnnotationsAttributes@647fd8ce]" started-at="2022-03-25T12:12:35 IST" name="testMethod3" finished-at="2022-03-25T12:12:35 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod3 -->
+        <test-method signature="testMethod4()[pri:0, instance:com.cg.DemoAnnotationsAttributes@647fd8ce]" started-at="2022-03-25T12:12:35 IST" name="testMethod4" finished-at="2022-03-25T12:12:36 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod4 -->
+        <test-method signature="testMethod2()[pri:0, instance:com.cg.DemoAnnotationsAttributes@647fd8ce]" started-at="2022-03-25T12:12:36 IST" name="testMethod2" depends-on-groups="Grp B, Grp A" finished-at="2022-03-25T12:12:36 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod2 -->
+        <test-method signature="testParameter(java.lang.String)[pri:0, instance:com.cg.DemoAnnotationsAttributes@647fd8ce]" started-at="2022-03-25T12:12:36 IST" name="testParameter" finished-at="2022-03-25T12:12:36 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pune]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParameter -->
+        <test-method signature="useData(int,java.lang.String)[pri:0, instance:com.cg.DemoAnnotationsAttributes@647fd8ce]" started-at="2022-03-25T12:12:36 IST" name="useData" data-provider="get" finished-at="2022-03-25T12:12:36 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[66]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[num1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- useData -->
+        <test-method signature="useData(int,java.lang.String)[pri:0, instance:com.cg.DemoAnnotationsAttributes@647fd8ce]" started-at="2022-03-25T12:12:36 IST" name="useData" data-provider="get" finished-at="2022-03-25T12:12:36 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[56]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[num2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- useData -->
+        <test-method signature="useData(int,java.lang.String)[pri:0, instance:com.cg.DemoAnnotationsAttributes@647fd8ce]" started-at="2022-03-25T12:12:36 IST" name="useData" data-provider="get" finished-at="2022-03-25T12:12:36 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[num3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- useData -->
+        <test-method signature="useData(int,java.lang.String)[pri:0, instance:com.cg.DemoAnnotationsAttributes@647fd8ce]" started-at="2022-03-25T12:12:36 IST" name="useData" data-provider="get" finished-at="2022-03-25T12:12:36 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[num4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- useData -->
+        <test-method signature="login()[pri:9, instance:com.cg.DemoAnnotationsAttributes@647fd8ce]" started-at="2022-03-25T12:12:36 IST" name="login" finished-at="2022-03-25T12:12:36 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="creditAmount()[pri:5, instance:com.cg.DemoAnnotationsAttributes@647fd8ce]" started-at="2022-03-25T12:12:36 IST" name="creditAmount" finished-at="2022-03-25T12:12:36 IST" depends-on-methods="com.cg.DemoAnnotationsAttributes.login" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creditAmount -->
+        <test-method signature="debitAmount()[pri:0, instance:com.cg.DemoAnnotationsAttributes@647fd8ce]" started-at="2022-03-25T12:12:36 IST" name="debitAmount" finished-at="2022-03-25T12:12:36 IST" depends-on-methods="com.cg.DemoAnnotationsAttributes.login, com.cg.DemoAnnotationsAttributes.creditAmount" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- debitAmount -->
+      </class> <!-- com.cg.DemoAnnotationsAttributes -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
