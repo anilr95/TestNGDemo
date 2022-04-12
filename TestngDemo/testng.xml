@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="com.cg.Test1">
+				<methods>
+				
+					<!-- <exclude name="method1"></exclude> -->
+					<!-- exclude means except this method/ group or method all other 
+					methods from that class will execute....that is only exclude this method -->
+				
+				<!-- <include name="method1"></include> -->
+					<!-- include means only this method/ group or method all other
+					methods from that class will excluded....that is only include this method -->
+				
+				<!-- <include name="method.*"></include> -->
+				<!-- only methods start with 'method' word will execute  -->
+				
+				</methods>
+			</class>
+			<class name="com.cg.Test2" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
